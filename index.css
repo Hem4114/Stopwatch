@@ -8,7 +8,7 @@ body{
 #o1{
     margin: auto;
     background-color: #2dff08;
-    height: 300px;
+    height: 270px;
     width: 500px;
     border-radius: 200px;
     text-align: center;
@@ -28,32 +28,51 @@ body{
     font-size: 20px;
     padding: 25px;
 }
+#s2{
+    font-size: 20px;
+    padding: 25px;
+}
 p{
     margin-top: 0;
 }
 #b1{
     background-color: black;
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
     border-radius: 100px;
     margin: 10px;
-    padding: 30px;
+    color: #2dff08;
+    font-size: 20px;
+    transition: .5s;
+}
+#b1:hover{
+    transform: scale(1.1);
 }
 #b2{
     background-color: black;
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
     border-radius: 100px;
     margin: 10px;
-    padding: 30px;
+    color: #2dff08;
+    font-size: 20px;
+    transition: .5s;
+}
+#b2:hover{
+    transform: scale(1.1);
 }
 #b3{
     background-color: black;
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
     border-radius: 100px;
     margin: 10px;
-    padding: 30px;
+    color: #2dff08;
+    font-size: 20px;
+    transition: .5s;
+}
+#b3:hover{
+    transform: scale(1.1);
 }
 #o3{
     margin: auto;
