@@ -10,15 +10,31 @@ let s=0;
 let i=0;
 function start()
 {
-    s=1;
-    if(s==1)
+    if(s==0)
     {
+        s=1; 
+        document.getElementById("b2").innerHTML="Stop";
         stopwatch();
     }
+    else{
+        s=0;
+        document.getElementById("b2").innerHTML="Start";
+    }
+    
 }
-function stop()
+function reset()
 {
     s=0;
+    document.getElementById("o3").innerHTML=" ";
+    hrs=0;
+    min=0;
+    sec=0;
+    mili=0;
+    i=0;
+    document.getElementById("hrs").innerHTML="0";
+    document.getElementById("min").innerHTML="0";
+    document.getElementById("sec").innerHTML="0";
+    document.getElementById("mili").innerHTML="0";
 }
 function lap()
 {
