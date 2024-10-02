@@ -26,6 +26,7 @@ function reset()
 {
     s=0;
     document.getElementById("o3").innerHTML=" ";
+    document.getElementById("b2").innerHTML="Start";
     hrs=0;
     min=0;
     sec=0;
